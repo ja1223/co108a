@@ -41,7 +41,7 @@ CHIP CPU {
     PARTS:
     // Put your code here:
     //利用Or16來命名instruction的每個位元(因為跟 0(false) Or之後還是原本的值)
-    //C指令: isC  1  1  a  c1  c2  c3  c4  c5  c6  d1  d2  d3  j1  j2  j3
+    //C指令: isC  1  1  a(因為a容易混淆 以下a命名為aa)  c1  c2  c3  c4  c5  c6  d1  d2  d3  j1  j2  j3
     Or16(a=false,b=instruction,out[15]=isC,out[14]=true,out[13]=true,out[12]=aa,out[11]=c1,out[10]=c2,out[9]=c3,out[8]=c4,out[7]=c5,out[6]=c6,out[5]=d1,out[4]=d2,out[3]=d3,out[2]=j1,out[1]=j2,out[0]=j3);
 
     //c1(isC)
