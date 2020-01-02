@@ -20,9 +20,9 @@
 //   i = 0
 //   while (i < n) {
 //     if (*KBD != 0)
-//       SCREEN[i] = -1
+//       SCREEN[i] = -1 //全黑1111111111111111
 //     else
-//       SCREEN[i] = 0
+//       SCREEN[i] = 0  //全白0000000000000000
 //     i = i + 1
 //   }
 // goto forever;
