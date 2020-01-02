@@ -1,3 +1,5 @@
+//按鍵盤讓RAM18000變黑
+
 //loop:
 //    if KBD == 0 goto ELSE
 //    RAM[18000] = -1
